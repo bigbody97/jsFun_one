@@ -14,3 +14,8 @@ function hiFriend(name){
 function addNum(num1, num2) {
   console.log(num1+num2);
 }
+
+// Functions With default parameter value. adding tre = after time give the time parameter defalut value.
+function doYouHaveTheTime(time="12:30 pm") {
+  console.log("Why yes I do hve the time it is " + " " +time)
+}
