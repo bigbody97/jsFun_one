@@ -9,28 +9,3 @@ function sayHi() {
 function hiFriend(name){
   console.log("Hi my good friend"+ " " +name)
 }
-
-function upEarly(weekend, downtime) {
-  return (!weekend || downtime)
-}
-
-
-// Comparing Booleans params
-function mTrouble(aSmile, bSmile) {
-  return (!aSmile && !bSmile) || (aSmile && bSmile)
-}
-
-// Basic inputs and outputs
-function moreStr(str, n) {
-  // local var
-  var str = "Hello";
-  var n = 10;
-  var returnStr ="";
-  var i = 0;
-  //While loop
-  while (i<n) {
-    returnStr += str
-    itt
-  }
-  return returnStr
-}
