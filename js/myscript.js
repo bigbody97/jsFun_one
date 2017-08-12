@@ -9,3 +9,8 @@ function sayHi() {
 function hiFriend(name){
   console.log("Hi my good friend"+ " " +name)
 }
+
+//This a funtion that take 2 parameters num1,num2
+function addNum(num1, num2) {
+  console.log(num1+num2);
+}
